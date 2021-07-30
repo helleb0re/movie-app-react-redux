@@ -1,0 +1,53 @@
+.main-slider__list {
+  max-width: 1100px;
+  width: 90%;
+}
+
+.main-slider__box {
+  position: relative;
+  z-index: 5;
+  cursor: default;
+  flex-grow: 1;
+  width: 5%;
+}
+
+.main-slider__track {
+  display: flex;
+}
+
+.main-slider__track.shifting {
+  transition: transform 0.5s ease-out;
+}
+
+.main-slider__btn-prev,
+.main-slider__btn-next {
+  z-index: 100;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 25px);
+  border-radius: 50%;
+  background-color: rgb(245, 245, 245);
+  padding: 0;
+  opacity: 0.9;
+  background-image: url("../images/arrow.svg");
+  background-position: 0 3px;
+  width: 50px;
+  height: 50px;
+  border: 0;
+}
+
+.main-slider__btn-prev {
+  right: -25px;
+  transform: rotate(90deg);
+  -webkit-box-shadow: 2px 2px 8px 5px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 2px 2px 8px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 2px 2px 8px 5px rgba(34, 60, 80, 0.2);
+}
+
+.main-slider__btn-next {
+  left: -25px;
+  transform: rotate(-90deg);
+  -webkit-box-shadow: -2px -2px 8px 5px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -2px -2px 8px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: -2px -2px 8px 5px rgba(34, 60, 80, 0.2);
+}

@@ -1,0 +1,100 @@
+.people-page {
+  padding: 20px;
+  color: #fff;
+}
+
+.people-page__preview {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.people-page__text-content {
+  padding: 0 40px;
+}
+
+.people-page__poster {
+  border-radius: 20px;
+}
+
+.people-page__name {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.people-page__link-imdb {
+  font-size: 0;
+}
+
+.people-page__link-imdb svg {
+  margin-bottom: 5px;
+}
+
+.people-page__biography-title {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.people-page__biography {
+  font-size: 0.75rem;
+  text-align: justify;
+}
+
+.people-page__biography:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1900px) {
+  .people-page__text-content {
+    padding: 0;
+  }
+
+  .people-page__preview {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .people-page__poster {
+    max-width: 400px;
+    max-height: 600px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .people-page__text-content {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .people-page__preview {
+    margin-bottom: 20px;
+  }
+
+  .people-page__name {
+    font-size: calc(3rem * 0.65);
+  }
+  .people-page__biography-title {
+    font-size: calc(1.1rem * 0.85);
+  }
+  .people-page__biography {
+    font-size: calc(0.9rem * 0.85);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .people-page__preview {
+    margin-bottom: 10px;
+  }
+
+  .people-page__poster {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .people__poster {
+    max-height: 400px;
+  }
+}

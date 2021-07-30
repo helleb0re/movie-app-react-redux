@@ -1,0 +1,37 @@
+.more-btn__flex-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-btn__container {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.more-btn__image {
+  width: 80px;
+  transition: transform 0.5s ease-out;
+  margin-bottom: 5px;
+}
+
+.more-btn__text {
+  font-size: 0.8rem;
+}
+
+.more-btn__container:hover .more-btn__image {
+  transform: rotate(120deg);
+}
+
+@media screen and (max-width: 400px) {
+  .more-btn__image {
+    width: 60px;
+  }
+
+  .more-btn__text {
+    font-size: 0.7rem;
+  }
+}

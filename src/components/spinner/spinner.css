@@ -1,0 +1,111 @@
+@keyframes ldio-gldbxx7rrqo-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes ldio-gldbxx7rrqo-2 {
+  0% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: rotate(225deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+.ldio-gldbxx7rrqo > div:nth-child(2) {
+  transform: translate(-15px, 0);
+}
+.ldio-gldbxx7rrqo > div:nth-child(2) div {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 120px;
+  height: 60px;
+  border-radius: 120px 120px 0 0;
+  background: #f8b26a;
+  animation: ldio-gldbxx7rrqo-1 1s linear infinite;
+  transform-origin: 60px 60px;
+}
+.ldio-gldbxx7rrqo > div:nth-child(2) div:nth-child(2) {
+  animation: ldio-gldbxx7rrqo-2 1s linear infinite;
+}
+.ldio-gldbxx7rrqo > div:nth-child(2) div:nth-child(3) {
+  transform: rotate(-90deg);
+  animation: none;
+}
+@keyframes ldio-gldbxx7rrqo-3 {
+  0% {
+    transform: translate(190px, 0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(70px, 0);
+    opacity: 1;
+  }
+}
+.ldio-gldbxx7rrqo > div:nth-child(1) {
+  display: block;
+}
+.ldio-gldbxx7rrqo > div:nth-child(1) div {
+  position: absolute;
+  top: 92px;
+  left: -8px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #e15b64;
+  animation: ldio-gldbxx7rrqo-3 1s linear infinite;
+}
+.ldio-gldbxx7rrqo > div:nth-child(1) div:nth-child(1) {
+  animation-delay: -0.67s;
+}
+.ldio-gldbxx7rrqo > div:nth-child(1) div:nth-child(2) {
+  animation-delay: -0.33s;
+}
+.ldio-gldbxx7rrqo > div:nth-child(1) div:nth-child(3) {
+  animation-delay: 0s;
+}
+.loadingio-spinner-bean-eater-h8dn942d4to {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 20% auto;
+  overflow: hidden;
+  background: transparent;
+  transform: scale(2);
+}
+.ldio-gldbxx7rrqo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-gldbxx7rrqo div {
+  box-sizing: content-box;
+}
+
+/* @media screen and (max-width: 1000px) {
+  .loadingio-spinner-bean-eater-pcksgifrrp {
+    margin: 150px auto;
+  }
+} */
+
+@media screen and (max-width: 700px) {
+  .loadingio-spinner-bean-eater-h8dn942d4to {
+    transform: scale(1.3);
+    margin: 120px auto;
+  }
+}

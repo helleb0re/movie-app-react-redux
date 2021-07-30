@@ -1,0 +1,161 @@
+.movie-page {
+  padding: 20px;
+  color: #fff;
+}
+
+.movie-page__preview {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.movie-page__text-container {
+  padding: 0 40px;
+}
+
+.movie-page__poster {
+  width: 500px;
+  height: 750px;
+  border-radius: 20px;
+}
+
+.movie-page__title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.movie-page__vote-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.movie-page__vote-img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.movie-page__vote-text {
+  font-size: 1.3rem;
+}
+
+.movie-page__card-container {
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-page__card {
+  background-color: rgb(71, 69, 104);
+  border-radius: 15px;
+  padding: 7px;
+  font-size: 0.75rem;
+}
+
+.movie-page__card {
+  margin-right: 5px;
+  margin-bottom: 7px;
+}
+
+.movie-page__card-button {
+  border: 0;
+  font-size: 0.75rem;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 15px;
+  background-color: rgb(161, 54, 54);
+  margin-bottom: 7px;
+}
+
+.movie-page__overview-title {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.movie-page__overview-text {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.movie-page__cast-slider {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1250px) {
+  .movie-page__title {
+    font-size: calc(3rem * 0.7);
+  }
+  .movie-page__overview-title {
+    font-size: calc(1.1rem * 0.85);
+  }
+  .movie-page__overview-text {
+    font-size: calc(0.9rem * 0.85);
+  }
+  .movie-page__card {
+    font-size: calc(0.75rem * 0.85);
+  }
+  .movie-page__card-button {
+    font-size: calc(0.75rem * 0.85);
+  }
+  .movie-page__poster {
+    max-width: 400px;
+    max-height: 600px;
+  }
+
+  .movie-page__cast-slider {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .movie-page__preview {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .movie-page__poster {
+    width: 100%;
+  }
+  .movie-page__text-container {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .movie-page__cast-slider {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .movie-page__vote-img {
+    width: 25px;
+  }
+
+  .movie-page__vote-text {
+    font-size: 1rem;
+  }
+
+  .movie-page__title {
+    font-size: calc(3rem * 0.65);
+  }
+  .movie-page__overview-title {
+    font-size: calc(1.1rem * 0.8);
+  }
+  .movie-page__overview-text {
+    font-size: calc(0.9rem * 0.8);
+  }
+  .movie-page__card {
+    font-size: calc(0.75rem * 0.8);
+  }
+  .movie-page__card-button {
+    font-size: calc(0.75rem * 0.8);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .movie-page__poster {
+    max-height: 400px;
+  }
+}

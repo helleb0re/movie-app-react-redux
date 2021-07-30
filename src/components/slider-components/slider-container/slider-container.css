@@ -1,0 +1,21 @@
+.slider-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.slider-list {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+
+.slider-track {
+  height: 100%;
+  display: flex;
+}
+
+.ml-45 {
+  margin-left: 45px;
+}

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Barlow";
+  src: local("Barlow Regular"), local("Barlow-Regular"),
+    url("../fonts/Barlowregular.woff2") format("woff2"),
+    url("../fonts/Barlowregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: local("Barlow Bold"), local("Barlow-Bold"),
+    url("../fonts/Barlowbold.woff2") format("woff2"),
+    url("../fonts/Barlowbold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  src: local("Source Code Pro"), local("SourceCodePro-Regular"),
+    url("../fonts/Sourcecodepro.woff2") format("woff2"),
+    url("../fonts/Sourcecodepro.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  src: local("Source Code Pro Bold"), local("SourceCodePro-Bold"),
+    url("../fonts/Sourcecodeprobold.woff2") format("woff2"),
+    url("../fonts/Sourcecodeprobold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}

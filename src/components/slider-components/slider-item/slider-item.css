@@ -1,0 +1,13 @@
+.slider__item {
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.slider__item-content {
+  font-size: 0;
+  height: 100%;
+}
+
+.slider__item-img {
+  width: 100%;
+}

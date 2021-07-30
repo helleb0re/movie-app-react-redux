@@ -1,0 +1,15 @@
+.main-slider {
+  overflow-x: hidden;
+  display: flex;
+  margin: 0 -21.45%;
+  user-select: none;
+  /* Чтобы запретить скролл страницы, если мы начали двигать слайдер по оси X */
+  touch-action: pan-y;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+  .main-slider {
+    margin: 0 -5.45%;
+  }
+}

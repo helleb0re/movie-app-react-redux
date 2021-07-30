@@ -1,0 +1,8 @@
+.items {
+  color: #fff;
+  margin: 0 auto;
+}
+
+.items:not(:last-child) {
+  margin-bottom: 20px;
+}
